@@ -1,0 +1,75 @@
+provider: gigadev:witch
+id: witch
+
+settings:
+  title: '&cВыбери котёл!'
+  potion:
+    offset:
+      x: 0
+      y: 0.8
+      z: 0
+    speed: 3
+    height: 1.5
+    color: '#071FFF'
+    interval: 15
+
+  sound_place:
+    name: BLOCK_ANVIL_PLACE
+    volume: 1
+    pitch: 1
+
+  brew:
+    sound:
+      name: block_brewing_stand_brew
+      volume: 1
+      pitch: 1
+    particles:
+      name: WITCH
+      pos_offset:
+        x: 0
+        y: 1
+        z: 0
+      part_offset:
+        x: 0.15
+        y: 0.2
+        z: 0.15
+      count: 10
+      speed: 0.1
+  destroy:
+    sound:
+      name: ENTITY_WITHER_HURT
+      volume: 1
+      pitch: 1
+    particles:
+      name: CLOUD
+      part_offset:
+        x: 0.5
+        y: 0.5
+        z: 0.5
+      count: 5
+      speed: 0.1
+  positions:
+    - x: 1
+      y: 0
+      z: 3
+    - x: -1
+      y: 0
+      z: 3
+    - x: -3
+      y: 0
+      z: 1
+    - x: -3
+      y: 0
+      z: -1
+    - x: -1
+      y: 0
+      z: -3
+    - x: 1
+      y: 0
+      z: -3
+    - x: 3
+      y: 0
+      z: -1
+    - x: 3
+      y: 0
+      z: 1
